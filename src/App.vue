@@ -3,18 +3,21 @@
     <img src="./assets/logo.png">
     <HelloWorld/>
     <test />
+    <hello />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld'
 import Test from './components/test'
+import Hello from './components/hello'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Test
+    Test,
+    Hello
   }
 }
 </script>
