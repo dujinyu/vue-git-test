@@ -4,6 +4,7 @@
     <HelloWorld/>
     <test />
     <world />
+    <hello />
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import HelloWorld from './components/HelloWorld'
 import Test from './components/test'
 import World from './components/world'
+import Hello from './components/hello'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     Test,
-    World
+    World,
+    Hello
   }
 }
 </script>
